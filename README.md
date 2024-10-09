@@ -30,5 +30,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 ```sh
 npm run dev
 ```
+4. The API can run independently of the frontend from backend>BidCalculation.sln
+
 
 With this frontend should be available in http://localhost:5173/ and backend https://localhost:7198
