@@ -19,7 +19,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/Frank666/BidCalculation.git
    ```
 2. please go to frontend>bid-app Install NPM packages
    ```sh
