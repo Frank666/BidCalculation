@@ -15,7 +15,8 @@ public static class ServiceConfiguration
     
     public static void AddServices(this IServiceCollection services, IConfiguration config)
     {
-        var backend = config.GetSection(CorsConfig.Section).Get<CorsConfig>().Localhost;
+        //TODO: handle scenario when this value from settings is null
+        var backend = config.GetSection(CorsConfig.Section).Get<CorsConfig>()!.Localhost;
         services.AddCors(options =>
         {
             options.AddPolicy("AllowSpecificOrigin", b =>

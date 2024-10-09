@@ -60,7 +60,7 @@ export default defineComponent({
     const basePrice = ref<number>(null);
     const carType = ref<string>("");
     const fees = ref<Fees | null>(null);
-    const carTypes = ["Common", "Luxury"];
+    const carTypes = ["Common", "Luxury"]; // TODO: this should come from api instead to have it here
     const basePriceError = ref<string | null>(null);
     const carTypeError = ref<string | null>(null);
 

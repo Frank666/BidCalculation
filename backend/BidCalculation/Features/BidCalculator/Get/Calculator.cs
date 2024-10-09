@@ -7,6 +7,7 @@ namespace BidCalculation.Features.BidCalculator.Get
     [ApiController]
     public static class Calculator
     {
+        //TODO: could be a good idea to add a new endpoint to get car types to the frontend
         public static void MapBidEndpoint(this IEndpointRouteBuilder routes)
         {
             var group = routes.MapGroup("/BidCalculator");
